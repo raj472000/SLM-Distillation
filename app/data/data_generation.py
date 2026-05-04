@@ -1,7 +1,7 @@
 from transformers import pipeline
 from app.config import Config
 from app.utils.logger import get_logger
-from typing import Dict,List
+from typing import Dict,List,Any
 
 logger = get_logger("data_gen")
 

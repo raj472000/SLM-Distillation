@@ -1,0 +1,33 @@
+# Core ML / DL
+torch>=2.1.0
+transformers>=4.40.0
+datasets>=2.19.0
+accelerate>=0.29.0
+
+# PEFT / LoRA / QLoRA
+peft>=0.10.0
+bitsandbytes>=0.43.0
+
+# Distributed Training
+deepspeed>=0.13.0
+
+# Inference
+vllm>=0.4.0
+# API Layer
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Utilities
+numpy>=1.26.0
+pandas>=2.2.0
+tqdm>=4.66.0
+scikit-learn>=1.4.0
+
+# Logging / Config
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+
+# Optional (recommended)
+sentencepiece>=0.1.99
+protobuf>=4.25.0
+pandas

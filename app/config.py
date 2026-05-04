@@ -7,4 +7,5 @@ class Config:
     GRAD_ACCUM = 8
     EPOCHS = 3
 
-    ALPHA = 0.7   
+    ALPHA = 0.7
+    PROMPT_FLAG = False
